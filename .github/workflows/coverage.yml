@@ -33,6 +33,7 @@ jobs:
         chmod 777 -R ${{ github.workspace }}/data/test
         coverage run -m --source=source/ pytest test/
         coverage xml
+        genbadge coverage
       
     - name: Get Cover 
       uses: orgoro/coverage@v3
