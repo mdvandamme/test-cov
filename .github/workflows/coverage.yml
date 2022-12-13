@@ -1,10 +1,8 @@
 name: test
 
 on:
-  workflow_run:
-    workflows: ["build"]
-    types:
-      - completed
+  pull_request:
+    branches: [ main ]
 
 
 jobs:
@@ -29,8 +27,20 @@ jobs:
         python -m pip install --upgrade pip
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     
+  coverage:
+  
+    runs-on: ubuntu-latest
+    
     - name: Test with pytest
       run: |
         mkdir -p ${{ github.workspace }}/data/test
         chmod 777 -R ${{ github.workspace }}/data/test
-        pytest test/
+        coverage run -m --source=source/ pytest test/
+        coverage xml
+      
+    - name: Get Cover 
+      uses: orgoro/coverage@v3
+      with:
+        coverageFile: coverage.xml
+        token: ${{ secrets.GITHUB_TOKEN }}
+
