@@ -1,10 +1,5 @@
 # test-cov
 test-cov
 
-Test pull request for code-comment
+[![test](https://github.com/mdvandamme/test-cov/actions/workflows/test.yml/badge.svg)](https://github.com/mdvandamme/test-cov/actions/workflows/test.yml)
 
-Test pull request for code-comment-2
-
-Test pull request for code-comment-3
-
-Test pull request for code-comment-4
