@@ -16,7 +16,5 @@ codecov:
   behavior: default
   require_changes: no
   
-ignore:
-  # Ignore coverage for generated and third party code.
-  - "**/Plot_*.py"
+  
 
