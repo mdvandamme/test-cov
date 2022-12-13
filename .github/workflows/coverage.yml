@@ -1,8 +1,8 @@
-name: Tracklib coverage
+name: coverage
 
 on:
   workflow_run:
-    workflows: ["Tracklib test"]
+    workflows: ["test"]
     types:
       - completed
 
