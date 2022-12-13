@@ -4,7 +4,7 @@
 [![test](https://github.com/mdvandamme/test-cov/actions/workflows/test.yml/badge.svg)](https://github.com/mdvandamme/test-cov/actions/workflows/test.yml)
 
 
-[![Coverage badge](https://raw.githubusercontent.com/mdvandamme/python-coverage-comment-action/python-coverage-comment-action-data/badge.svg)](https://github.com/ewjoachim/python-coverage-comment-action/tree/python-coverage-comment-action-data)
+[![Coverage badge](https://raw.githubusercontent.com/mdvandamme/python-coverage-comment-action/python-coverage-comment-action-data/badge.svg)](https://github.com/mdvandamme/python-coverage-comment-action/tree/python-coverage-comment-action-data)
 
 
 
