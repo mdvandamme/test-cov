@@ -6,6 +6,6 @@
 
 ![Coverage badge](https://raw.githubusercontent.com/py-cov-action/python-coverage-comment-action-v3-example/python-coverage-comment-action-data/badge.svg)
 
+![Coverage badge](https://raw.githubusercontent.com/mdvandamme/test-cov/python-coverage-comment-action-data/badge.svg)
 
-[Coverage badge](https://github.com/mdvandamme/test-cov/actions/runs/3687894028/attempts/1#summary-10070319863)
 
